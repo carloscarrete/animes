@@ -1,0 +1,92 @@
+html{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #d500f9
+}
+.text{
+    text-transform: uppercase;
+}
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+.container{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 180vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    max-width: 1015px;
+    max-height: 1300px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6pc rgba(0,0,0,0.23);
+    border-radius: 6px;
+    position: relative;
+}
+.rv{
+    height: 200px;
+    width: 600px;
+    background-color: blue;
+}
+#pitote{
+    background-color: brown;
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table th, .table td{
+    padding: 1em;
+    text-align: left;
+}
+.table tr:nth-last-child(even){
+    background-color: #9B1D20;
+}
+.table thead{
+    background-color: #635D5C;
+}
+.fa-star,.fa-star-o{
+    color:#ffc400;
+}
+.texto-anime{
+    border-bottom-style: solid;
+    border-color: #9B1D20;    
+    padding-bottom: 1em;
+}
+.numerito{
+    /*border-radius: 2px 2px 2px 2px;* O tambien*/
+    border-radius: 6px;
+    background-color: #9B1D20;
+    color: white;
+    padding: 16px;
+
+}
+h2{
+    text-transform: uppercase;
+}
+.acciones{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+.cerrar{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: #9B1D20;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6pc rgba(0,0,0,0.23);
+    cursor: pointer;
+}
